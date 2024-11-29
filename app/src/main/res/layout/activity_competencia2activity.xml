@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1F0982"
+    tools:context=".competencia2activity">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="444dp"
+        android:layout_height="76dp"
+        android:background="#6B8DB3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/pngwing_com" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Competência 2"
+        android:textColor="@color/white"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:layout_width="360dp"
+        android:layout_height="629dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="O segundo aspecto a ser avaliado no seu texto é a compreensão da proposta de redação, composta por um tema específico a ser desenvolvido na forma de texto dissertativo-argumentativo — ou seja, a proposta exige que o(a) participante escreva um texto dissertativo-argumentativo, que é um texto em que, por meio de argumentação, se faz a defesa de uma ideia ou de um ponto de vista. É mais do que uma simples exposição de ideias; por isso, você deve evitar elaborar um texto de caráter apenas expositivo, devendo assumir claramente um ponto de vista. Além disso, é preciso que o ponto de vista que você irá defender esteja relacionado ao tema definido na proposta. Assim, você atenderá às exigências expressas pela Competência II da Matriz de Referência para a Redação do Enem. Trata-se, portanto, de uma competência que avalia as habilidades integradas de leitura e de escrita. O tema constitui o núcleo das ideias sobre as quais o ponto de vista se organiza e é caracterizado por ser uma delimitação de um assunto mais abrangente. Por isso, é preciso atender ao recorte temático definido para evitar tangenciá-lo (abordar parcialmente o tema) ou, ainda pior, desenvolver um tema distinto do determinado pela proposta. Outro aspecto avaliado na Competência II é a presença de repertório sociocultural, que se configura como uma informação, um fato, uma citação ou uma experiência vivida que, de alguma forma, contribua como argumento para a discussão proposta. A partir dessas considerações, seguem algumas recomendações para atender plenamente às expectativas em relação à Competência II:  "
+                android:textColor="#FFFFFF"
+                android:textSize="22sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

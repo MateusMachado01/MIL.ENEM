@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1F0982"
+    android:textAlignment="center"
+    tools:context=".competencia3Activity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="444dp"
+        android:layout_height="76dp"
+        android:background="#6B8DB3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/pngwing_com" />
+
+    <ScrollView
+        android:layout_width="354dp"
+        android:layout_height="579dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.685">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SELECIONAR, RELACIONAR, ORGANIZAR E INTERPRETAR INFORMAÇÕES, FATOS, OPINIÕES E ARGUMENTOS EM DEFESA DE UM PONTO DE VISTA O terceiro aspecto a ser avaliado é a forma como você, em seu texto, seleciona, relaciona, organiza e interpreta informações, fatos, opiniões e argumentos em defesa do ponto de vista escolhido. É preciso, então, elaborar um texto que apresente, claramente, uma ideia a ser defendida e os argumentos que justifiquem a posição assumida por você em relação à temática da proposta de redação. A Competência III trata da inteligibilidade do seu texto, ou seja, de sua coerência e da plausibilidade entre as ideias apresentadas, o que está alicerçado no planejamento prévio à escrita, isto é, na elaboração de um projeto de texto. A inteligibilidade da sua redação depende, portanto, dos seguintes fatores: "
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Competência 3"
+        android:textColor="@color/white"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

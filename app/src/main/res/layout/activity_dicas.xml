@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dicas">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1F0982"
+        tools:context=".Redacao">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="444dp"
+            android:layout_height="76dp"
+            android:background="#6B8DB3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.444"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/pngwing_com" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="Dicas"
+            android:textColor="@color/white"
+            android:textSize="60sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ScrollView
+            android:layout_width="361dp"
+            android:layout_height="606dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.796">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Sempre leia todas as instruções da prova   O modelo de redação do Enem já é muito conhecido e estudado, mas ainda é fundamental ler as instruções da prova oficial: isso acontece porque, por mais que o modelo tenha sido o mesmo nos últimos anos, ele pode mudar. Uma regra pode ser adicionada ou retirada, a prova pode trazer novas exigências ou pedir detalhes inovadores. Assim, sempre leia e releia a proposta ao fazer a prova.                                                2. Nunca copie dos textos motivadores   Os textos de apoio que acompanham a prova servem para dar contexto, inspirar ideias e dar o teor geral do tema, mas as informações não devem ser copiadas. O Inep indica que isso é avaliado negativamente e “fará com que sua redação tenha uma pontuação mais baixa ou até mesmo seja anulada como Cópia                               3. Atenção com o aspecto físico   Caso você opte pela prova presencial, com a redação manuscrita, preste atenção ao aspecto físico: escreva com letra legível, deixe o papel sem amassos e faça o menor número de rasuras possível. Isso facilita o entendimento do texto para o corretor.  ‎ ‎ ‎ ‎ ‎                    4. Identifique as palavras-chave do tema  O planejamento da redação é essencial para que todas as ideias estejam coesas no texto. Cada tema é muito bem pensado e desenvolvido. Assim, focar nas palavras centrais (e não se esquecer de nenhuma delas) é essencial."
+                    android:textAlignment="gravity"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp" />
+            </LinearLayout>
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

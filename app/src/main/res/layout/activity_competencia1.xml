@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1F0982"
+    tools:context=".competencia1Activity">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="444dp"
+        android:layout_height="76dp"
+        android:background="#6B8DB3"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/pngwing_com" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Competência 1"
+        android:textColor="@color/white"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:layout_width="359dp"
+        android:layout_height="594dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.722">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DEMONSTRAR DOMÍNIO DA MODALIDADE ESCRITA FORMAL DA LÍNGUA PORTUGUESA A Competência I avalia se o(a) participante domina a modalidade escrita formal da língua portuguesa, o que inclui o conhecimento das convenções da escrita, entre as quais se encontram as regras de ortografia e de acentuação gráfica regidas pelo atual Acordo Ortográfico da Língua Portuguesa. Além disso, o domínio da modalidade escrita formal será observado na adequação do seu texto em relação tanto às regras gramaticais quanto à construção sintática. Para que você tenha mais clareza a respeito das expectativas em relação a um(a) concluinte do ensino médio no que se refere ao domínio da modalidade escrita formal, apresentamos, a seguir, os principais aspectos que guiam o olhar do(a) avaliador(a) no momento de definir o nível em que seu texto se encontra na Competência I. Primeiramente, você deve atentar ao fato de que a escrita formal é a modalidade da língua associada a textos do tipo dissertativo-argumentativo. Assim, você será alertado(a) sobre a obrigatoriedade de usar a modalidade formal já na proposta de redação: “A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema...”. Desse modo, o(a) avaliador(a) julgará sua redação, nessa competência, considerando os possíveis problemas de construção sintática e a presença de desvios (de convenções da escrita, gramaticais, de escolha de registro e de escolha vocabular). "
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

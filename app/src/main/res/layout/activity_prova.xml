@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    tools:context=".Prova">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1F0982"
+        tools:context=".Redacao"
+        tools:layout_editor_absoluteX="-111dp"
+        tools:layout_editor_absoluteY="75dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="444dp"
+            android:layout_height="76dp"
+            android:background="#6B8DB3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.444"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/pngwing_com" />
+
+        <ScrollView
+            android:id="@+id/scrollView3"
+            android:layout_width="359dp"
+            android:layout_height="607dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.509"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.839">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Apresentar um documento de identificação válido e bom estado Chegar ao local da prova até as 12h e se apresentar na sala de prova até as 13h para identificação Sair da sala apenas após o horário mínimo, às 15h30 Guardar objetos pessoais em envelope porta-objetos lacrado, incluindo celulares e equipamentos eletrônicos, até a saída definitiva Permitir a vistoria de lanche, medicamentos, artigos religiosos e materiais específicos, quando necessário e requisitado Submeter-se a revista eletrônica por detector de metais, se solicitado Iniciar a prova somente após autorização, conferindo todas as instruções do Caderno de Questões Utilizar apenas caneta preta de material transparente para preencher o Cartão-Resposta e a Folha de Redação Entregar ao chefe de sala o Cartão-Resposta, Folha de Redação e Folha de Rascunho ao sair definitivamente Seguir o tempo limite para a realização das provas e o preenchimento dos cartões, acompanhando o marcador de tempo da sala"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp" />
+            </LinearLayout>
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="Prova"
+            android:textColor="@color/white"
+            android:textSize="60sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.523"
+            app:layout_constraintStart_toStartOf="@+id/imageView3"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
